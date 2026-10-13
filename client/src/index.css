@@ -1,0 +1,55 @@
+:root {
+  --bg0: #0b1210;
+  --bg1: #12201a;
+  --bg2: #1a2e24;
+  --ink: #e8f2ec;
+  --muted: #9bb5a6;
+  --accent: #3ecf8e;
+  --accent-dim: #2a9f6a;
+  --warn: #e8b84a;
+  --danger: #e86a5a;
+  --line: rgba(232, 242, 236, 0.12);
+  --card: rgba(18, 32, 26, 0.72);
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--bg0);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(62, 207, 142, 0.18), transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, rgba(232, 184, 74, 0.12), transparent 50%),
+    linear-gradient(165deg, var(--bg0), var(--bg1) 45%, #0e1814);
+  background-attachment: fixed;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: var(--accent);
+}

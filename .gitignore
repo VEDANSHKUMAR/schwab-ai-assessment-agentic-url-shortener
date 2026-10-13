@@ -1,0 +1,28 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+
+## Node
+node_modules/
+client/dist/
+*.log
+npm-debug.log*
+
+## IDE / OS
+.idea/
+.DS_Store
+Thumbs.db
+
+## Secrets / env
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+
+## Test / coverage
+TestResults/
+coverage/
